@@ -33,8 +33,9 @@ class VeiculoFactory:
 
 
 if __name__ == "__main__":
+
     from random import choice
-    carros_disponiveis = ["luxo","popular","moto"]
+    carros_disponiveis = ['luxo','popular','moto']
 
     for i in range(12):
         carro = VeiculoFactory.get_carro(choice(carros_disponiveis))
